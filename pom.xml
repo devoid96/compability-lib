@@ -40,6 +40,8 @@
             <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
+
+
     </dependencies>
 
     <build>
@@ -127,4 +129,14 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/devoid96/compability-lib</url>
+        </repository>
+        <snapshotRepository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/devoid96/compability-lib</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
